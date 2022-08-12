@@ -8,7 +8,7 @@ describe('Search on Google', () => {
   });
 
   data.forEach(data => {
-    it('Search Rises', () => {
+    it('Search Rices', () => {
       google.inputGoogleType().
           type(data.text).
           type('{enter}').
